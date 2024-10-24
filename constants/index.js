@@ -81,6 +81,6 @@ export const featured = {
       stars: 4,
       reviews: '4.4k',
       category: 'Fast Food'
-    },
+    }
   ]
 }

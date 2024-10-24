@@ -46,7 +46,6 @@ export default function HomeScreen() {
                 key={index}
                 title={item.title}
                 description={item.description}
-                restaurants={item.restaurants}
                 />
               )
             })
