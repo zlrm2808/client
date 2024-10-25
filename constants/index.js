@@ -56,7 +56,30 @@ export const featured = {
       address: '434 second street',
       stars: 4,
       reviews: '4.4k',
-      category: 'Fast Food'
+      category: 'Fast Food',
+      dishes: [
+        {
+          id: 1,
+          name: 'pizza',
+          description: 'cheezy garlic pizza',
+          price: 10,
+          image: require('../assets/images/pizzaDish.png')
+        },
+        {
+          id: 2,
+          name: 'pizza',
+          description: 'cheezy garlic pizza',
+          price: 10,
+          image: require('../assets/images/pizzaDish.png')
+        },
+        {
+          id: 3,
+          name: 'pizza',
+          description: 'cheezy garlic pizza',
+          price: 10,
+          image: require('../assets/images/pizzaDish.png')
+        }
+      ]
     },
     {
       id: 2,
@@ -68,7 +91,30 @@ export const featured = {
       address: '434 second street',
       stars: 4,
       reviews: '4.4k',
-      category: 'Fast Food'
+      category: 'Fast Food',
+      dishes: [
+        {
+          id: 1,
+          name: 'pizza',
+          description: 'cheezy garlic pizza',
+          price: 10,
+          image: require('../assets/images/pizzaDish.png')
+        },
+        {
+          id: 2,
+          name: 'pizza',
+          description: 'cheezy garlic pizza',
+          price: 10,
+          image: require('../assets/images/pizzaDish.png')
+        },
+        {
+          id: 3,
+          name: 'pizza',
+          description: 'cheezy garlic pizza',
+          price: 10,
+          image: require('../assets/images/pizzaDish.png')
+        }
+      ]
     },
     {
       id: 3,
@@ -80,7 +126,30 @@ export const featured = {
       address: '434 second street',
       stars: 4,
       reviews: '4.4k',
-      category: 'Fast Food'
+      category: 'Fast Food',
+      dishes: [
+        {
+          id: 1,
+          name: 'pizza',
+          description: 'cheezy garlic pizza',
+          price: 10,
+          image: require('../assets/images/pizzaDish.png')
+        },
+        {
+          id: 2,
+          name: 'pizza',
+          description: 'cheezy garlic pizza',
+          price: 10,
+          image: require('../assets/images/pizzaDish.png')
+        },
+        {
+          id: 3,
+          name: 'pizza',
+          description: 'cheezy garlic pizza',
+          price: 10,
+          image: require('../assets/images/pizzaDish.png')
+        }
+      ]
     }
   ]
 }
