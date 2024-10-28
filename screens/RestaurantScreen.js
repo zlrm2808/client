@@ -6,6 +6,7 @@ import * as Icon from "react-native-feather"
 import { themeColors } from '../theme'
 import DishRow from '../components/dishRow'
 import CartIcon from '../components/cartIcon'
+import { StatusBar} from 'expo-status-bar'
 
 export default function RestaurantScreen() {
   const {params} = useRoute()
@@ -15,6 +16,7 @@ export default function RestaurantScreen() {
   return (
     <View>
       <CartIcon />
+      <StatusBar style="light" />
       <ScrollView>
         <View className="relative">
           <Image className="w-full h-72" source={item.image} />
